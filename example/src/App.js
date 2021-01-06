@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { Component } from "react";
+import ButtonDat from "taoladat";
 
-import { ExampleComponent } from 'taoladat'
-import 'taoladat/dist/index.css'
-
-const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+export default class App extends Component {
+ 
+  render() {
+    return (
+      <div>
+        <ButtonDat/>
+      </div>
+    );
+  }
 }
-
-export default App
